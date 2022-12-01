@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  justify-content: center;
+  display: block;
+  background: black;
+}
+
+.profile {
+  margin-top: 1rem;
+}
+
+.photo {
+  height: 8rem;
+  width: 8rem;
+  border-radius: 100%;
+  margin-bottom: 2rem;
+  border: 1px solid rgba(252, 249, 249, 0.452);
+  box-shadow: 0px 0px 1px white;
+  background-color: rgba(134, 121, 121, 0.123);
+}
+
+.photo:hover {
+  background-color: rgba(134, 121, 121, 0.527);
+}
+
+h1 {
+  color: rgba(241, 221, 221, 0.527);
+}
+
+h2 {
+  margin-bottom: 2rem;
+  color: rgba(241, 221, 221, 0.747);
+}
+
+.message {
+  padding: 1rem;
+  width: 41rem;
+  border-radius: 1rem;
+  margin: auto;
+  color: rgba(245, 237, 237, 0.747);
+  background-color: rgba(134, 121, 121, 0.123);
+  box-shadow: 0px 0px 2px white;
+  margin-bottom: 2rem;
+}
+
+.message:hover {
+  background-color: rgba(134, 121, 121, 0.527);
+}
+
+.p2 {
+  color: rgb(0, 225, 255);
+  margin-bottom: 2rem;
+}
+
+.list-links {
+  width: 95%;
+  margin: auto;
+  margin-bottom: 1rem;
+  list-style: none;
+  border-radius: 1rem;
+  transition: background 0.25s;
+  background-color: rgba(134, 121, 121, 0.123);
+  box-shadow: 0px 0px 2px white;
+}
+
+.list-links:hover {
+  background-color: rgba(134, 121, 121, 0.527);
+}
+
+.social-links {
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: rgba(245, 237, 237, 0.747);
+}
+
+.social-links .icons {
+  width: 1rem;
+  margin-left: 1rem;
+}
+
+footer {
+  font-size: 10px;
+  padding: 10px;
+  margin-top: 2rem;
+  color: rgba(245, 237, 237, 0.747);
+}
+
+@media (min-width: 200px) and (max-width: 300px) {
+  h1 {
+    font-size: 18px;
+  }
+  h2 {
+    font-size: 13px;
+  }
+  .p2 {
+    font-size: 10px;
+  }
+  .list-links {
+    width: 90%;
+    font-size: 13px;
+  }
+  .message {
+    font-size: 10px;
+    width: 70%;
+  }
+}
+@media (min-width: 301px) and (max-width: 800px) {
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  .list-links {
+    width: 95%;
+    font-size: 18px;
+  }
+  .message {
+    font-size: 15px;
+    width: 70%;
+  }
+}/*# sourceMappingURL=style.css.map */
